@@ -33,7 +33,7 @@ void retro_get_system_av_info(struct retro_system_av_info* info) {
 	info->geometry.max_width = WIDTH;
 	info->geometry.max_height = HEIGHT;
 	info->timing.fps = 60;
-	info->timing.sample_rate = 44*1024;
+	info->timing.sample_rate = 44100;
 }
 size_t retro_serialize_size(void) { return 0; }
 bool retro_serialize(void* data, size_t size) { return false; }
