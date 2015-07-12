@@ -126,4 +126,4 @@ class Render {
 			glDeleteShader(vert);
 			glDeleteShader(frag);
 		}
-}
+};
