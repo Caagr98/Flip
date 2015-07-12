@@ -1,0 +1,566 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+HEIGHT	.\FlipRetro.h	6;"	d
+LIBRETRO_H__	.\libretro.h	24;"	d
+RETROKMOD_ALT	.\libretro.h	/^   RETROKMOD_ALT        = 0x04,$/;"	e	enum:retro_mod
+RETROKMOD_CAPSLOCK	.\libretro.h	/^   RETROKMOD_CAPSLOCK   = 0x20,$/;"	e	enum:retro_mod
+RETROKMOD_CTRL	.\libretro.h	/^   RETROKMOD_CTRL       = 0x02,$/;"	e	enum:retro_mod
+RETROKMOD_DUMMY	.\libretro.h	/^   RETROKMOD_DUMMY = INT_MAX \/* Ensure sizeof(enum) == sizeof(int) *\/$/;"	e	enum:retro_mod
+RETROKMOD_META	.\libretro.h	/^   RETROKMOD_META       = 0x08,$/;"	e	enum:retro_mod
+RETROKMOD_NONE	.\libretro.h	/^   RETROKMOD_NONE       = 0x0000,$/;"	e	enum:retro_mod
+RETROKMOD_NUMLOCK	.\libretro.h	/^   RETROKMOD_NUMLOCK    = 0x10,$/;"	e	enum:retro_mod
+RETROKMOD_SCROLLOCK	.\libretro.h	/^   RETROKMOD_SCROLLOCK  = 0x40,$/;"	e	enum:retro_mod
+RETROKMOD_SHIFT	.\libretro.h	/^   RETROKMOD_SHIFT      = 0x01,$/;"	e	enum:retro_mod
+RETROK_0	.\libretro.h	/^   RETROK_0              = 48,$/;"	e	enum:retro_key
+RETROK_1	.\libretro.h	/^   RETROK_1              = 49,$/;"	e	enum:retro_key
+RETROK_2	.\libretro.h	/^   RETROK_2              = 50,$/;"	e	enum:retro_key
+RETROK_3	.\libretro.h	/^   RETROK_3              = 51,$/;"	e	enum:retro_key
+RETROK_4	.\libretro.h	/^   RETROK_4              = 52,$/;"	e	enum:retro_key
+RETROK_5	.\libretro.h	/^   RETROK_5              = 53,$/;"	e	enum:retro_key
+RETROK_6	.\libretro.h	/^   RETROK_6              = 54,$/;"	e	enum:retro_key
+RETROK_7	.\libretro.h	/^   RETROK_7              = 55,$/;"	e	enum:retro_key
+RETROK_8	.\libretro.h	/^   RETROK_8              = 56,$/;"	e	enum:retro_key
+RETROK_9	.\libretro.h	/^   RETROK_9              = 57,$/;"	e	enum:retro_key
+RETROK_AMPERSAND	.\libretro.h	/^   RETROK_AMPERSAND      = 38,$/;"	e	enum:retro_key
+RETROK_ASTERISK	.\libretro.h	/^   RETROK_ASTERISK       = 42,$/;"	e	enum:retro_key
+RETROK_AT	.\libretro.h	/^   RETROK_AT             = 64,$/;"	e	enum:retro_key
+RETROK_BACKQUOTE	.\libretro.h	/^   RETROK_BACKQUOTE      = 96,$/;"	e	enum:retro_key
+RETROK_BACKSLASH	.\libretro.h	/^   RETROK_BACKSLASH      = 92,$/;"	e	enum:retro_key
+RETROK_BACKSPACE	.\libretro.h	/^   RETROK_BACKSPACE      = 8,$/;"	e	enum:retro_key
+RETROK_BREAK	.\libretro.h	/^   RETROK_BREAK          = 318,$/;"	e	enum:retro_key
+RETROK_CAPSLOCK	.\libretro.h	/^   RETROK_CAPSLOCK       = 301,$/;"	e	enum:retro_key
+RETROK_CARET	.\libretro.h	/^   RETROK_CARET          = 94,$/;"	e	enum:retro_key
+RETROK_CLEAR	.\libretro.h	/^   RETROK_CLEAR          = 12,$/;"	e	enum:retro_key
+RETROK_COLON	.\libretro.h	/^   RETROK_COLON          = 58,$/;"	e	enum:retro_key
+RETROK_COMMA	.\libretro.h	/^   RETROK_COMMA          = 44,$/;"	e	enum:retro_key
+RETROK_COMPOSE	.\libretro.h	/^   RETROK_COMPOSE        = 314,$/;"	e	enum:retro_key
+RETROK_DELETE	.\libretro.h	/^   RETROK_DELETE         = 127,$/;"	e	enum:retro_key
+RETROK_DOLLAR	.\libretro.h	/^   RETROK_DOLLAR         = 36,$/;"	e	enum:retro_key
+RETROK_DOWN	.\libretro.h	/^   RETROK_DOWN           = 274,$/;"	e	enum:retro_key
+RETROK_DUMMY	.\libretro.h	/^   RETROK_DUMMY          = INT_MAX \/* Ensure sizeof(enum) == sizeof(int) *\/$/;"	e	enum:retro_key
+RETROK_END	.\libretro.h	/^   RETROK_END            = 279,$/;"	e	enum:retro_key
+RETROK_EQUALS	.\libretro.h	/^   RETROK_EQUALS         = 61,$/;"	e	enum:retro_key
+RETROK_ESCAPE	.\libretro.h	/^   RETROK_ESCAPE         = 27,$/;"	e	enum:retro_key
+RETROK_EURO	.\libretro.h	/^   RETROK_EURO           = 321,$/;"	e	enum:retro_key
+RETROK_EXCLAIM	.\libretro.h	/^   RETROK_EXCLAIM        = 33,$/;"	e	enum:retro_key
+RETROK_F1	.\libretro.h	/^   RETROK_F1             = 282,$/;"	e	enum:retro_key
+RETROK_F10	.\libretro.h	/^   RETROK_F10            = 291,$/;"	e	enum:retro_key
+RETROK_F11	.\libretro.h	/^   RETROK_F11            = 292,$/;"	e	enum:retro_key
+RETROK_F12	.\libretro.h	/^   RETROK_F12            = 293,$/;"	e	enum:retro_key
+RETROK_F13	.\libretro.h	/^   RETROK_F13            = 294,$/;"	e	enum:retro_key
+RETROK_F14	.\libretro.h	/^   RETROK_F14            = 295,$/;"	e	enum:retro_key
+RETROK_F15	.\libretro.h	/^   RETROK_F15            = 296,$/;"	e	enum:retro_key
+RETROK_F2	.\libretro.h	/^   RETROK_F2             = 283,$/;"	e	enum:retro_key
+RETROK_F3	.\libretro.h	/^   RETROK_F3             = 284,$/;"	e	enum:retro_key
+RETROK_F4	.\libretro.h	/^   RETROK_F4             = 285,$/;"	e	enum:retro_key
+RETROK_F5	.\libretro.h	/^   RETROK_F5             = 286,$/;"	e	enum:retro_key
+RETROK_F6	.\libretro.h	/^   RETROK_F6             = 287,$/;"	e	enum:retro_key
+RETROK_F7	.\libretro.h	/^   RETROK_F7             = 288,$/;"	e	enum:retro_key
+RETROK_F8	.\libretro.h	/^   RETROK_F8             = 289,$/;"	e	enum:retro_key
+RETROK_F9	.\libretro.h	/^   RETROK_F9             = 290,$/;"	e	enum:retro_key
+RETROK_FIRST	.\libretro.h	/^   RETROK_FIRST          = 0,$/;"	e	enum:retro_key
+RETROK_GREATER	.\libretro.h	/^   RETROK_GREATER        = 62,$/;"	e	enum:retro_key
+RETROK_HASH	.\libretro.h	/^   RETROK_HASH           = 35,$/;"	e	enum:retro_key
+RETROK_HELP	.\libretro.h	/^   RETROK_HELP           = 315,$/;"	e	enum:retro_key
+RETROK_HOME	.\libretro.h	/^   RETROK_HOME           = 278,$/;"	e	enum:retro_key
+RETROK_INSERT	.\libretro.h	/^   RETROK_INSERT         = 277,$/;"	e	enum:retro_key
+RETROK_KP0	.\libretro.h	/^   RETROK_KP0            = 256,$/;"	e	enum:retro_key
+RETROK_KP1	.\libretro.h	/^   RETROK_KP1            = 257,$/;"	e	enum:retro_key
+RETROK_KP2	.\libretro.h	/^   RETROK_KP2            = 258,$/;"	e	enum:retro_key
+RETROK_KP3	.\libretro.h	/^   RETROK_KP3            = 259,$/;"	e	enum:retro_key
+RETROK_KP4	.\libretro.h	/^   RETROK_KP4            = 260,$/;"	e	enum:retro_key
+RETROK_KP5	.\libretro.h	/^   RETROK_KP5            = 261,$/;"	e	enum:retro_key
+RETROK_KP6	.\libretro.h	/^   RETROK_KP6            = 262,$/;"	e	enum:retro_key
+RETROK_KP7	.\libretro.h	/^   RETROK_KP7            = 263,$/;"	e	enum:retro_key
+RETROK_KP8	.\libretro.h	/^   RETROK_KP8            = 264,$/;"	e	enum:retro_key
+RETROK_KP9	.\libretro.h	/^   RETROK_KP9            = 265,$/;"	e	enum:retro_key
+RETROK_KP_DIVIDE	.\libretro.h	/^   RETROK_KP_DIVIDE      = 267,$/;"	e	enum:retro_key
+RETROK_KP_ENTER	.\libretro.h	/^   RETROK_KP_ENTER       = 271,$/;"	e	enum:retro_key
+RETROK_KP_EQUALS	.\libretro.h	/^   RETROK_KP_EQUALS      = 272,$/;"	e	enum:retro_key
+RETROK_KP_MINUS	.\libretro.h	/^   RETROK_KP_MINUS       = 269,$/;"	e	enum:retro_key
+RETROK_KP_MULTIPLY	.\libretro.h	/^   RETROK_KP_MULTIPLY    = 268,$/;"	e	enum:retro_key
+RETROK_KP_PERIOD	.\libretro.h	/^   RETROK_KP_PERIOD      = 266,$/;"	e	enum:retro_key
+RETROK_KP_PLUS	.\libretro.h	/^   RETROK_KP_PLUS        = 270,$/;"	e	enum:retro_key
+RETROK_LALT	.\libretro.h	/^   RETROK_LALT           = 308,$/;"	e	enum:retro_key
+RETROK_LAST	.\libretro.h	/^   RETROK_LAST,$/;"	e	enum:retro_key
+RETROK_LCTRL	.\libretro.h	/^   RETROK_LCTRL          = 306,$/;"	e	enum:retro_key
+RETROK_LEFT	.\libretro.h	/^   RETROK_LEFT           = 276,$/;"	e	enum:retro_key
+RETROK_LEFTBRACKET	.\libretro.h	/^   RETROK_LEFTBRACKET    = 91,$/;"	e	enum:retro_key
+RETROK_LEFTPAREN	.\libretro.h	/^   RETROK_LEFTPAREN      = 40,$/;"	e	enum:retro_key
+RETROK_LESS	.\libretro.h	/^   RETROK_LESS           = 60,$/;"	e	enum:retro_key
+RETROK_LMETA	.\libretro.h	/^   RETROK_LMETA          = 310,$/;"	e	enum:retro_key
+RETROK_LSHIFT	.\libretro.h	/^   RETROK_LSHIFT         = 304,$/;"	e	enum:retro_key
+RETROK_LSUPER	.\libretro.h	/^   RETROK_LSUPER         = 311,$/;"	e	enum:retro_key
+RETROK_MENU	.\libretro.h	/^   RETROK_MENU           = 319,$/;"	e	enum:retro_key
+RETROK_MINUS	.\libretro.h	/^   RETROK_MINUS          = 45,$/;"	e	enum:retro_key
+RETROK_MODE	.\libretro.h	/^   RETROK_MODE           = 313,$/;"	e	enum:retro_key
+RETROK_NUMLOCK	.\libretro.h	/^   RETROK_NUMLOCK        = 300,$/;"	e	enum:retro_key
+RETROK_PAGEDOWN	.\libretro.h	/^   RETROK_PAGEDOWN       = 281,$/;"	e	enum:retro_key
+RETROK_PAGEUP	.\libretro.h	/^   RETROK_PAGEUP         = 280,$/;"	e	enum:retro_key
+RETROK_PAUSE	.\libretro.h	/^   RETROK_PAUSE          = 19,$/;"	e	enum:retro_key
+RETROK_PERIOD	.\libretro.h	/^   RETROK_PERIOD         = 46,$/;"	e	enum:retro_key
+RETROK_PLUS	.\libretro.h	/^   RETROK_PLUS           = 43,$/;"	e	enum:retro_key
+RETROK_POWER	.\libretro.h	/^   RETROK_POWER          = 320,$/;"	e	enum:retro_key
+RETROK_PRINT	.\libretro.h	/^   RETROK_PRINT          = 316,$/;"	e	enum:retro_key
+RETROK_QUESTION	.\libretro.h	/^   RETROK_QUESTION       = 63,$/;"	e	enum:retro_key
+RETROK_QUOTE	.\libretro.h	/^   RETROK_QUOTE          = 39,$/;"	e	enum:retro_key
+RETROK_QUOTEDBL	.\libretro.h	/^   RETROK_QUOTEDBL       = 34,$/;"	e	enum:retro_key
+RETROK_RALT	.\libretro.h	/^   RETROK_RALT           = 307,$/;"	e	enum:retro_key
+RETROK_RCTRL	.\libretro.h	/^   RETROK_RCTRL          = 305,$/;"	e	enum:retro_key
+RETROK_RETURN	.\libretro.h	/^   RETROK_RETURN         = 13,$/;"	e	enum:retro_key
+RETROK_RIGHT	.\libretro.h	/^   RETROK_RIGHT          = 275,$/;"	e	enum:retro_key
+RETROK_RIGHTBRACKET	.\libretro.h	/^   RETROK_RIGHTBRACKET   = 93,$/;"	e	enum:retro_key
+RETROK_RIGHTPAREN	.\libretro.h	/^   RETROK_RIGHTPAREN     = 41,$/;"	e	enum:retro_key
+RETROK_RMETA	.\libretro.h	/^   RETROK_RMETA          = 309,$/;"	e	enum:retro_key
+RETROK_RSHIFT	.\libretro.h	/^   RETROK_RSHIFT         = 303,$/;"	e	enum:retro_key
+RETROK_RSUPER	.\libretro.h	/^   RETROK_RSUPER         = 312,$/;"	e	enum:retro_key
+RETROK_SCROLLOCK	.\libretro.h	/^   RETROK_SCROLLOCK      = 302,$/;"	e	enum:retro_key
+RETROK_SEMICOLON	.\libretro.h	/^   RETROK_SEMICOLON      = 59,$/;"	e	enum:retro_key
+RETROK_SLASH	.\libretro.h	/^   RETROK_SLASH          = 47,$/;"	e	enum:retro_key
+RETROK_SPACE	.\libretro.h	/^   RETROK_SPACE          = 32,$/;"	e	enum:retro_key
+RETROK_SYSREQ	.\libretro.h	/^   RETROK_SYSREQ         = 317,$/;"	e	enum:retro_key
+RETROK_TAB	.\libretro.h	/^   RETROK_TAB            = 9,$/;"	e	enum:retro_key
+RETROK_UNDERSCORE	.\libretro.h	/^   RETROK_UNDERSCORE     = 95,$/;"	e	enum:retro_key
+RETROK_UNDO	.\libretro.h	/^   RETROK_UNDO           = 322,$/;"	e	enum:retro_key
+RETROK_UNKNOWN	.\libretro.h	/^   RETROK_UNKNOWN        = 0,$/;"	e	enum:retro_key
+RETROK_UP	.\libretro.h	/^   RETROK_UP             = 273,$/;"	e	enum:retro_key
+RETROK_a	.\libretro.h	/^   RETROK_a              = 97,$/;"	e	enum:retro_key
+RETROK_b	.\libretro.h	/^   RETROK_b              = 98,$/;"	e	enum:retro_key
+RETROK_c	.\libretro.h	/^   RETROK_c              = 99,$/;"	e	enum:retro_key
+RETROK_d	.\libretro.h	/^   RETROK_d              = 100,$/;"	e	enum:retro_key
+RETROK_e	.\libretro.h	/^   RETROK_e              = 101,$/;"	e	enum:retro_key
+RETROK_f	.\libretro.h	/^   RETROK_f              = 102,$/;"	e	enum:retro_key
+RETROK_g	.\libretro.h	/^   RETROK_g              = 103,$/;"	e	enum:retro_key
+RETROK_h	.\libretro.h	/^   RETROK_h              = 104,$/;"	e	enum:retro_key
+RETROK_i	.\libretro.h	/^   RETROK_i              = 105,$/;"	e	enum:retro_key
+RETROK_j	.\libretro.h	/^   RETROK_j              = 106,$/;"	e	enum:retro_key
+RETROK_k	.\libretro.h	/^   RETROK_k              = 107,$/;"	e	enum:retro_key
+RETROK_l	.\libretro.h	/^   RETROK_l              = 108,$/;"	e	enum:retro_key
+RETROK_m	.\libretro.h	/^   RETROK_m              = 109,$/;"	e	enum:retro_key
+RETROK_n	.\libretro.h	/^   RETROK_n              = 110,$/;"	e	enum:retro_key
+RETROK_o	.\libretro.h	/^   RETROK_o              = 111,$/;"	e	enum:retro_key
+RETROK_p	.\libretro.h	/^   RETROK_p              = 112,$/;"	e	enum:retro_key
+RETROK_q	.\libretro.h	/^   RETROK_q              = 113,$/;"	e	enum:retro_key
+RETROK_r	.\libretro.h	/^   RETROK_r              = 114,$/;"	e	enum:retro_key
+RETROK_s	.\libretro.h	/^   RETROK_s              = 115,$/;"	e	enum:retro_key
+RETROK_t	.\libretro.h	/^   RETROK_t              = 116,$/;"	e	enum:retro_key
+RETROK_u	.\libretro.h	/^   RETROK_u              = 117,$/;"	e	enum:retro_key
+RETROK_v	.\libretro.h	/^   RETROK_v              = 118,$/;"	e	enum:retro_key
+RETROK_w	.\libretro.h	/^   RETROK_w              = 119,$/;"	e	enum:retro_key
+RETROK_x	.\libretro.h	/^   RETROK_x              = 120,$/;"	e	enum:retro_key
+RETROK_y	.\libretro.h	/^   RETROK_y              = 121,$/;"	e	enum:retro_key
+RETROK_z	.\libretro.h	/^   RETROK_z              = 122,$/;"	e	enum:retro_key
+RETRO_API	.\libretro.h	60;"	d
+RETRO_API	.\libretro.h	62;"	d
+RETRO_API	.\libretro.h	66;"	d
+RETRO_API	.\libretro.h	68;"	d
+RETRO_API	.\libretro.h	73;"	d
+RETRO_API	.\libretro.h	75;"	d
+RETRO_API_VERSION	.\libretro.h	84;"	d
+RETRO_CALLCONV	.\libretro.h	48;"	d
+RETRO_CALLCONV	.\libretro.h	50;"	d
+RETRO_CALLCONV	.\libretro.h	52;"	d
+RETRO_CAMERA_BUFFER_DUMMY	.\libretro.h	/^   RETRO_CAMERA_BUFFER_DUMMY = INT_MAX$/;"	e	enum:retro_camera_buffer
+RETRO_CAMERA_BUFFER_OPENGL_TEXTURE	.\libretro.h	/^   RETRO_CAMERA_BUFFER_OPENGL_TEXTURE = 0,$/;"	e	enum:retro_camera_buffer
+RETRO_CAMERA_BUFFER_RAW_FRAMEBUFFER	.\libretro.h	/^   RETRO_CAMERA_BUFFER_RAW_FRAMEBUFFER,$/;"	e	enum:retro_camera_buffer
+RETRO_DEVICE_ANALOG	.\libretro.h	140;"	d
+RETRO_DEVICE_ID_ANALOG_X	.\libretro.h	198;"	d
+RETRO_DEVICE_ID_ANALOG_Y	.\libretro.h	199;"	d
+RETRO_DEVICE_ID_JOYPAD_A	.\libretro.h	186;"	d
+RETRO_DEVICE_ID_JOYPAD_B	.\libretro.h	178;"	d
+RETRO_DEVICE_ID_JOYPAD_DOWN	.\libretro.h	183;"	d
+RETRO_DEVICE_ID_JOYPAD_L	.\libretro.h	188;"	d
+RETRO_DEVICE_ID_JOYPAD_L2	.\libretro.h	190;"	d
+RETRO_DEVICE_ID_JOYPAD_L3	.\libretro.h	192;"	d
+RETRO_DEVICE_ID_JOYPAD_LEFT	.\libretro.h	184;"	d
+RETRO_DEVICE_ID_JOYPAD_R	.\libretro.h	189;"	d
+RETRO_DEVICE_ID_JOYPAD_R2	.\libretro.h	191;"	d
+RETRO_DEVICE_ID_JOYPAD_R3	.\libretro.h	193;"	d
+RETRO_DEVICE_ID_JOYPAD_RIGHT	.\libretro.h	185;"	d
+RETRO_DEVICE_ID_JOYPAD_SELECT	.\libretro.h	180;"	d
+RETRO_DEVICE_ID_JOYPAD_START	.\libretro.h	181;"	d
+RETRO_DEVICE_ID_JOYPAD_UP	.\libretro.h	182;"	d
+RETRO_DEVICE_ID_JOYPAD_X	.\libretro.h	187;"	d
+RETRO_DEVICE_ID_JOYPAD_Y	.\libretro.h	179;"	d
+RETRO_DEVICE_ID_LIGHTGUN_CURSOR	.\libretro.h	216;"	d
+RETRO_DEVICE_ID_LIGHTGUN_PAUSE	.\libretro.h	218;"	d
+RETRO_DEVICE_ID_LIGHTGUN_START	.\libretro.h	219;"	d
+RETRO_DEVICE_ID_LIGHTGUN_TRIGGER	.\libretro.h	215;"	d
+RETRO_DEVICE_ID_LIGHTGUN_TURBO	.\libretro.h	217;"	d
+RETRO_DEVICE_ID_LIGHTGUN_X	.\libretro.h	213;"	d
+RETRO_DEVICE_ID_LIGHTGUN_Y	.\libretro.h	214;"	d
+RETRO_DEVICE_ID_MOUSE_HORIZ_WHEELDOWN	.\libretro.h	210;"	d
+RETRO_DEVICE_ID_MOUSE_HORIZ_WHEELUP	.\libretro.h	209;"	d
+RETRO_DEVICE_ID_MOUSE_LEFT	.\libretro.h	204;"	d
+RETRO_DEVICE_ID_MOUSE_MIDDLE	.\libretro.h	208;"	d
+RETRO_DEVICE_ID_MOUSE_RIGHT	.\libretro.h	205;"	d
+RETRO_DEVICE_ID_MOUSE_WHEELDOWN	.\libretro.h	207;"	d
+RETRO_DEVICE_ID_MOUSE_WHEELUP	.\libretro.h	206;"	d
+RETRO_DEVICE_ID_MOUSE_X	.\libretro.h	202;"	d
+RETRO_DEVICE_ID_MOUSE_Y	.\libretro.h	203;"	d
+RETRO_DEVICE_ID_POINTER_PRESSED	.\libretro.h	224;"	d
+RETRO_DEVICE_ID_POINTER_X	.\libretro.h	222;"	d
+RETRO_DEVICE_ID_POINTER_Y	.\libretro.h	223;"	d
+RETRO_DEVICE_INDEX_ANALOG_LEFT	.\libretro.h	196;"	d
+RETRO_DEVICE_INDEX_ANALOG_RIGHT	.\libretro.h	197;"	d
+RETRO_DEVICE_JOYPAD	.\libretro.h	110;"	d
+RETRO_DEVICE_KEYBOARD	.\libretro.h	127;"	d
+RETRO_DEVICE_LIGHTGUN	.\libretro.h	131;"	d
+RETRO_DEVICE_MASK	.\libretro.h	101;"	d
+RETRO_DEVICE_MOUSE	.\libretro.h	119;"	d
+RETRO_DEVICE_NONE	.\libretro.h	105;"	d
+RETRO_DEVICE_POINTER	.\libretro.h	172;"	d
+RETRO_DEVICE_SUBCLASS	.\libretro.h	102;"	d
+RETRO_DEVICE_TYPE_SHIFT	.\libretro.h	100;"	d
+RETRO_ENVIRONMENT_EXPERIMENTAL	.\libretro.h	446;"	d
+RETRO_ENVIRONMENT_GET_CAMERA_INTERFACE	.\libretro.h	686;"	d
+RETRO_ENVIRONMENT_GET_CAN_DUPE	.\libretro.h	461;"	d
+RETRO_ENVIRONMENT_GET_CONTENT_DIRECTORY	.\libretro.h	734;"	d
+RETRO_ENVIRONMENT_GET_CORE_ASSETS_DIRECTORY	.\libretro.h	735;"	d
+RETRO_ENVIRONMENT_GET_INPUT_DEVICE_CAPABILITIES	.\libretro.h	668;"	d
+RETRO_ENVIRONMENT_GET_LANGUAGE	.\libretro.h	888;"	d
+RETRO_ENVIRONMENT_GET_LIBRETRO_PATH	.\libretro.h	612;"	d
+RETRO_ENVIRONMENT_GET_LOCATION_INTERFACE	.\libretro.h	727;"	d
+RETRO_ENVIRONMENT_GET_LOG_INTERFACE	.\libretro.h	711;"	d
+RETRO_ENVIRONMENT_GET_OVERSCAN	.\libretro.h	457;"	d
+RETRO_ENVIRONMENT_GET_PERF_INTERFACE	.\libretro.h	721;"	d
+RETRO_ENVIRONMENT_GET_RUMBLE_INTERFACE	.\libretro.h	661;"	d
+RETRO_ENVIRONMENT_GET_SAVE_DIRECTORY	.\libretro.h	745;"	d
+RETRO_ENVIRONMENT_GET_SENSOR_INTERFACE	.\libretro.h	677;"	d
+RETRO_ENVIRONMENT_GET_SYSTEM_DIRECTORY	.\libretro.h	499;"	d
+RETRO_ENVIRONMENT_GET_USERNAME	.\libretro.h	879;"	d
+RETRO_ENVIRONMENT_GET_VARIABLE	.\libretro.h	556;"	d
+RETRO_ENVIRONMENT_GET_VARIABLE_UPDATE	.\libretro.h	599;"	d
+RETRO_ENVIRONMENT_PRIVATE	.\libretro.h	448;"	d
+RETRO_ENVIRONMENT_SET_AUDIO_CALLBACK	.\libretro.h	626;"	d
+RETRO_ENVIRONMENT_SET_CONTROLLER_INFO	.\libretro.h	822;"	d
+RETRO_ENVIRONMENT_SET_DISK_CONTROL_INTERFACE	.\libretro.h	537;"	d
+RETRO_ENVIRONMENT_SET_FRAME_TIME_CALLBACK	.\libretro.h	652;"	d
+RETRO_ENVIRONMENT_SET_GEOMETRY	.\libretro.h	860;"	d
+RETRO_ENVIRONMENT_SET_HW_RENDER	.\libretro.h	544;"	d
+RETRO_ENVIRONMENT_SET_INPUT_DESCRIPTORS	.\libretro.h	524;"	d
+RETRO_ENVIRONMENT_SET_KEYBOARD_CALLBACK	.\libretro.h	533;"	d
+RETRO_ENVIRONMENT_SET_MEMORY_MAPS	.\libretro.h	847;"	d
+RETRO_ENVIRONMENT_SET_MESSAGE	.\libretro.h	470;"	d
+RETRO_ENVIRONMENT_SET_PERFORMANCE_LEVEL	.\libretro.h	482;"	d
+RETRO_ENVIRONMENT_SET_PIXEL_FORMAT	.\libretro.h	513;"	d
+RETRO_ENVIRONMENT_SET_PROC_ADDRESS_CALLBACK	.\libretro.h	792;"	d
+RETRO_ENVIRONMENT_SET_ROTATION	.\libretro.h	451;"	d
+RETRO_ENVIRONMENT_SET_SUBSYSTEM_INFO	.\libretro.h	803;"	d
+RETRO_ENVIRONMENT_SET_SUPPORT_NO_GAME	.\libretro.h	605;"	d
+RETRO_ENVIRONMENT_SET_SYSTEM_AV_INFO	.\libretro.h	759;"	d
+RETRO_ENVIRONMENT_SET_VARIABLES	.\libretro.h	564;"	d
+RETRO_ENVIRONMENT_SHUTDOWN	.\libretro.h	477;"	d
+RETRO_HW_CONTEXT_DUMMY	.\libretro.h	/^   RETRO_HW_CONTEXT_DUMMY = INT_MAX$/;"	e	enum:retro_hw_context_type
+RETRO_HW_CONTEXT_NONE	.\libretro.h	/^   RETRO_HW_CONTEXT_NONE             = 0,$/;"	e	enum:retro_hw_context_type
+RETRO_HW_CONTEXT_OPENGL	.\libretro.h	/^   RETRO_HW_CONTEXT_OPENGL           = 1, $/;"	e	enum:retro_hw_context_type
+RETRO_HW_CONTEXT_OPENGLES2	.\libretro.h	/^   RETRO_HW_CONTEXT_OPENGLES2        = 2,$/;"	e	enum:retro_hw_context_type
+RETRO_HW_CONTEXT_OPENGLES3	.\libretro.h	/^   RETRO_HW_CONTEXT_OPENGLES3        = 4,$/;"	e	enum:retro_hw_context_type
+RETRO_HW_CONTEXT_OPENGLES_VERSION	.\libretro.h	/^   RETRO_HW_CONTEXT_OPENGLES_VERSION = 5,$/;"	e	enum:retro_hw_context_type
+RETRO_HW_CONTEXT_OPENGL_CORE	.\libretro.h	/^   RETRO_HW_CONTEXT_OPENGL_CORE      = 3,$/;"	e	enum:retro_hw_context_type
+RETRO_HW_FRAME_BUFFER_VALID	.\libretro.h	1471;"	d
+RETRO_LANGUAGE_CHINESE_SIMPLIFIED	.\libretro.h	/^   RETRO_LANGUAGE_CHINESE_SIMPLIFIED  = 11,$/;"	e	enum:retro_language
+RETRO_LANGUAGE_CHINESE_TRADITIONAL	.\libretro.h	/^   RETRO_LANGUAGE_CHINESE_TRADITIONAL = 10,$/;"	e	enum:retro_language
+RETRO_LANGUAGE_DUMMY	.\libretro.h	/^   RETRO_LANGUAGE_DUMMY          = INT_MAX $/;"	e	enum:retro_language
+RETRO_LANGUAGE_DUTCH	.\libretro.h	/^   RETRO_LANGUAGE_DUTCH               =  6,$/;"	e	enum:retro_language
+RETRO_LANGUAGE_ENGLISH	.\libretro.h	/^   RETRO_LANGUAGE_ENGLISH             =  0,$/;"	e	enum:retro_language
+RETRO_LANGUAGE_ESPERANTO	.\libretro.h	/^   RETRO_LANGUAGE_ESPERANTO           = 12,$/;"	e	enum:retro_language
+RETRO_LANGUAGE_FRENCH	.\libretro.h	/^   RETRO_LANGUAGE_FRENCH              =  2,$/;"	e	enum:retro_language
+RETRO_LANGUAGE_GERMAN	.\libretro.h	/^   RETRO_LANGUAGE_GERMAN              =  4,$/;"	e	enum:retro_language
+RETRO_LANGUAGE_ITALIAN	.\libretro.h	/^   RETRO_LANGUAGE_ITALIAN             =  5,$/;"	e	enum:retro_language
+RETRO_LANGUAGE_JAPANESE	.\libretro.h	/^   RETRO_LANGUAGE_JAPANESE            =  1,$/;"	e	enum:retro_language
+RETRO_LANGUAGE_KOREAN	.\libretro.h	/^   RETRO_LANGUAGE_KOREAN              =  9,$/;"	e	enum:retro_language
+RETRO_LANGUAGE_LAST	.\libretro.h	/^   RETRO_LANGUAGE_LAST,$/;"	e	enum:retro_language
+RETRO_LANGUAGE_POLISH	.\libretro.h	/^   RETRO_LANGUAGE_POLISH              = 13,$/;"	e	enum:retro_language
+RETRO_LANGUAGE_PORTUGUESE	.\libretro.h	/^   RETRO_LANGUAGE_PORTUGUESE          =  7,$/;"	e	enum:retro_language
+RETRO_LANGUAGE_RUSSIAN	.\libretro.h	/^   RETRO_LANGUAGE_RUSSIAN             =  8,$/;"	e	enum:retro_language
+RETRO_LANGUAGE_SPANISH	.\libretro.h	/^   RETRO_LANGUAGE_SPANISH             =  3,$/;"	e	enum:retro_language
+RETRO_LOG_DEBUG	.\libretro.h	/^   RETRO_LOG_DEBUG = 0,$/;"	e	enum:retro_log_level
+RETRO_LOG_DUMMY	.\libretro.h	/^   RETRO_LOG_DUMMY = INT_MAX$/;"	e	enum:retro_log_level
+RETRO_LOG_ERROR	.\libretro.h	/^   RETRO_LOG_ERROR,$/;"	e	enum:retro_log_level
+RETRO_LOG_INFO	.\libretro.h	/^   RETRO_LOG_INFO,$/;"	e	enum:retro_log_level
+RETRO_LOG_WARN	.\libretro.h	/^   RETRO_LOG_WARN,$/;"	e	enum:retro_log_level
+RETRO_MEMDESC_ALIGN_2	.\libretro.h	896;"	d
+RETRO_MEMDESC_ALIGN_4	.\libretro.h	897;"	d
+RETRO_MEMDESC_ALIGN_8	.\libretro.h	898;"	d
+RETRO_MEMDESC_BIGENDIAN	.\libretro.h	895;"	d
+RETRO_MEMDESC_CONST	.\libretro.h	894;"	d
+RETRO_MEMDESC_MINSIZE_2	.\libretro.h	899;"	d
+RETRO_MEMDESC_MINSIZE_4	.\libretro.h	900;"	d
+RETRO_MEMDESC_MINSIZE_8	.\libretro.h	901;"	d
+RETRO_MEMORY_MASK	.\libretro.h	257;"	d
+RETRO_MEMORY_RTC	.\libretro.h	269;"	d
+RETRO_MEMORY_SAVE_RAM	.\libretro.h	264;"	d
+RETRO_MEMORY_SYSTEM_RAM	.\libretro.h	272;"	d
+RETRO_MEMORY_VIDEO_RAM	.\libretro.h	275;"	d
+RETRO_PIXEL_FORMAT_0RGB1555	.\libretro.h	/^   RETRO_PIXEL_FORMAT_0RGB1555 = 0,$/;"	e	enum:retro_pixel_format
+RETRO_PIXEL_FORMAT_RGB565	.\libretro.h	/^   RETRO_PIXEL_FORMAT_RGB565   = 2,$/;"	e	enum:retro_pixel_format
+RETRO_PIXEL_FORMAT_UNKNOWN	.\libretro.h	/^   RETRO_PIXEL_FORMAT_UNKNOWN  = INT_MAX$/;"	e	enum:retro_pixel_format
+RETRO_PIXEL_FORMAT_XRGB8888	.\libretro.h	/^   RETRO_PIXEL_FORMAT_XRGB8888 = 1,$/;"	e	enum:retro_pixel_format
+RETRO_REGION_NTSC	.\libretro.h	227;"	d
+RETRO_REGION_PAL	.\libretro.h	228;"	d
+RETRO_RUMBLE_DUMMY	.\libretro.h	/^   RETRO_RUMBLE_DUMMY = INT_MAX$/;"	e	enum:retro_rumble_effect
+RETRO_RUMBLE_STRONG	.\libretro.h	/^   RETRO_RUMBLE_STRONG = 0,$/;"	e	enum:retro_rumble_effect
+RETRO_RUMBLE_WEAK	.\libretro.h	/^   RETRO_RUMBLE_WEAK = 1,$/;"	e	enum:retro_rumble_effect
+RETRO_SENSOR_ACCELEROMETER_DISABLE	.\libretro.h	/^   RETRO_SENSOR_ACCELEROMETER_DISABLE,$/;"	e	enum:retro_sensor_action
+RETRO_SENSOR_ACCELEROMETER_ENABLE	.\libretro.h	/^   RETRO_SENSOR_ACCELEROMETER_ENABLE = 0,$/;"	e	enum:retro_sensor_action
+RETRO_SENSOR_ACCELEROMETER_X	.\libretro.h	1272;"	d
+RETRO_SENSOR_ACCELEROMETER_Y	.\libretro.h	1273;"	d
+RETRO_SENSOR_ACCELEROMETER_Z	.\libretro.h	1274;"	d
+RETRO_SENSOR_DUMMY	.\libretro.h	/^   RETRO_SENSOR_DUMMY = INT_MAX$/;"	e	enum:retro_sensor_action
+RETRO_SIMD_AES	.\libretro.h	1166;"	d
+RETRO_SIMD_AVX	.\libretro.h	1155;"	d
+RETRO_SIMD_AVX2	.\libretro.h	1163;"	d
+RETRO_SIMD_MMX	.\libretro.h	1159;"	d
+RETRO_SIMD_MMXEXT	.\libretro.h	1160;"	d
+RETRO_SIMD_NEON	.\libretro.h	1156;"	d
+RETRO_SIMD_PS	.\libretro.h	1165;"	d
+RETRO_SIMD_SSE	.\libretro.h	1151;"	d
+RETRO_SIMD_SSE2	.\libretro.h	1152;"	d
+RETRO_SIMD_SSE3	.\libretro.h	1157;"	d
+RETRO_SIMD_SSE4	.\libretro.h	1161;"	d
+RETRO_SIMD_SSE42	.\libretro.h	1162;"	d
+RETRO_SIMD_SSSE3	.\libretro.h	1158;"	d
+RETRO_SIMD_VFPU	.\libretro.h	1164;"	d
+RETRO_SIMD_VFPV3	.\libretro.h	1167;"	d
+RETRO_SIMD_VFPV4	.\libretro.h	1168;"	d
+RETRO_SIMD_VMX	.\libretro.h	1153;"	d
+RETRO_SIMD_VMX128	.\libretro.h	1154;"	d
+Render	.\gl\Render.cpp	/^class Render {$/;"	c	file:
+WIDTH	.\FlipRetro.h	5;"	d
+add_image_index	.\libretro.h	/^   retro_add_image_index_t add_image_index;$/;"	m	struct:retro_disk_control_callback
+addrspace	.\libretro.h	/^   const char *addrspace;$/;"	m	struct:retro_memory_descriptor
+aspect_ratio	.\libretro.h	/^   float    aspect_ratio;  \/* Nominal aspect ratio of game. If$/;"	m	struct:retro_game_geometry
+audio_batch_cb	.\FlipRetro.h	/^retro_audio_sample_batch_t audio_batch_cb = NULL;$/;"	v
+audio_cb	.\FlipRetro.h	/^retro_audio_sample_t audio_cb = NULL;$/;"	v
+base_height	.\libretro.h	/^   unsigned base_height;   \/* Nominal video height of game. *\/$/;"	m	struct:retro_game_geometry
+base_width	.\libretro.h	/^   unsigned base_width;    \/* Nominal video width of game. *\/$/;"	m	struct:retro_game_geometry
+block_extract	.\libretro.h	/^   bool        block_extract;     $/;"	m	struct:retro_system_info
+block_extract	.\libretro.h	/^   bool block_extract;$/;"	m	struct:retro_subsystem_rom_info
+bool	.\libretro.h	38;"	d
+bottom_left_origin	.\libretro.h	/^   bool bottom_left_origin;$/;"	m	struct:retro_hw_render_callback
+cache_context	.\libretro.h	/^   bool cache_context;$/;"	m	struct:retro_hw_render_callback
+call_cnt	.\libretro.h	/^   retro_perf_tick_t call_cnt;$/;"	m	struct:retro_perf_counter
+callback	.\libretro.h	/^   retro_audio_callback_t callback;$/;"	m	struct:retro_audio_callback
+callback	.\libretro.h	/^   retro_frame_time_callback_t callback;$/;"	m	struct:retro_frame_time_callback
+callback	.\libretro.h	/^   retro_keyboard_event_t callback;$/;"	m	struct:retro_keyboard_callback
+caps	.\libretro.h	/^   uint64_t caps; $/;"	m	struct:retro_camera_callback
+context_destroy	.\libretro.h	/^   retro_hw_context_reset_t context_destroy;$/;"	m	struct:retro_hw_render_callback
+context_reset	.\libretro.h	/^   retro_hw_context_reset_t context_reset;$/;"	m	struct:retro_hw_render_callback
+context_type	.\libretro.h	/^   enum retro_hw_context_type context_type;$/;"	m	struct:retro_hw_render_callback	typeref:enum:retro_hw_render_callback::retro_hw_context_type
+data	.\libretro.h	/^   const void *data;       \/* Memory buffer of loaded game. Will be NULL $/;"	m	struct:retro_game_info
+debug_context	.\libretro.h	/^   bool debug_context;$/;"	m	struct:retro_hw_render_callback
+deinitialized	.\libretro.h	/^   retro_camera_lifetime_status_t deinitialized;$/;"	m	struct:retro_camera_callback
+deinitialized	.\libretro.h	/^   retro_location_lifetime_status_t deinitialized;$/;"	m	struct:retro_location_callback
+depth	.\libretro.h	/^   bool depth;$/;"	m	struct:retro_hw_render_callback
+desc	.\libretro.h	/^   const char *desc;$/;"	m	struct:retro_controller_description
+desc	.\libretro.h	/^   const char *desc;$/;"	m	struct:retro_subsystem_info
+desc	.\libretro.h	/^   const char *desc;$/;"	m	struct:retro_subsystem_rom_info
+description	.\libretro.h	/^   const char *description; $/;"	m	struct:retro_input_descriptor
+descriptors	.\libretro.h	/^   const struct retro_memory_descriptor *descriptors;$/;"	m	struct:retro_memory_map	typeref:struct:retro_memory_map::retro_memory_descriptor
+device	.\libretro.h	/^   unsigned device;$/;"	m	struct:retro_input_descriptor
+disconnect	.\libretro.h	/^   size_t disconnect;$/;"	m	struct:retro_memory_descriptor
+environ_cb	.\FlipRetro.h	/^retro_environment_t environ_cb = NULL;$/;"	v
+extension	.\libretro.h	/^   const char *extension;$/;"	m	struct:retro_subsystem_memory_info
+false	.\libretro.h	40;"	d
+flags	.\libretro.h	/^   uint64_t flags;$/;"	m	struct:retro_memory_descriptor
+fps	.\libretro.h	/^   double fps;             \/* FPS of video content. *\/$/;"	m	struct:retro_system_timing
+frame_opengl_texture	.\libretro.h	/^   retro_camera_frame_opengl_texture_t frame_opengl_texture; $/;"	m	struct:retro_camera_callback
+frame_raw_framebuffer	.\libretro.h	/^   retro_camera_frame_raw_framebuffer_t frame_raw_framebuffer;$/;"	m	struct:retro_camera_callback
+frames	.\libretro.h	/^   unsigned    frames;     \/* Duration in frames of message. *\/$/;"	m	struct:retro_message
+geometry	.\libretro.h	/^   struct retro_game_geometry geometry;$/;"	m	struct:retro_system_av_info	typeref:struct:retro_system_av_info::retro_game_geometry
+get_cpu_features	.\libretro.h	/^   retro_get_cpu_features_t      get_cpu_features;$/;"	m	struct:retro_perf_callback
+get_current_framebuffer	.\libretro.h	/^   retro_hw_get_current_framebuffer_t get_current_framebuffer;$/;"	m	struct:retro_hw_render_callback
+get_eject_state	.\libretro.h	/^   retro_get_eject_state_t get_eject_state;$/;"	m	struct:retro_disk_control_callback
+get_image_index	.\libretro.h	/^   retro_get_image_index_t get_image_index;$/;"	m	struct:retro_disk_control_callback
+get_num_images	.\libretro.h	/^   retro_get_num_images_t  get_num_images;$/;"	m	struct:retro_disk_control_callback
+get_perf_counter	.\libretro.h	/^   retro_perf_get_counter_t      get_perf_counter;$/;"	m	struct:retro_perf_callback
+get_position	.\libretro.h	/^   retro_location_get_position_t  get_position;$/;"	m	struct:retro_location_callback
+get_proc_address	.\libretro.h	/^   retro_get_proc_address_t get_proc_address;$/;"	m	struct:retro_get_proc_address_interface
+get_proc_address	.\libretro.h	/^   retro_hw_get_proc_address_t get_proc_address;$/;"	m	struct:retro_hw_render_callback
+get_sensor_input	.\libretro.h	/^   retro_sensor_get_input_t get_sensor_input;$/;"	m	struct:retro_sensor_interface
+get_time_usec	.\libretro.h	/^   retro_perf_get_time_usec_t    get_time_usec;$/;"	m	struct:retro_perf_callback
+height	.\libretro.h	/^   unsigned height;$/;"	m	struct:retro_camera_callback
+hw_render	.\gl\Render.cpp	/^	struct retro_hw_render_callback hw_render;$/;"	m	class:Render	typeref:struct:Render::retro_hw_render_callback	file:
+id	.\libretro.h	/^   unsigned id;$/;"	m	struct:retro_controller_description
+id	.\libretro.h	/^   unsigned id;$/;"	m	struct:retro_input_descriptor
+id	.\libretro.h	/^   unsigned id;$/;"	m	struct:retro_subsystem_info
+ident	.\libretro.h	/^   const char *ident;$/;"	m	struct:retro_perf_counter
+ident	.\libretro.h	/^   const char *ident;$/;"	m	struct:retro_subsystem_info
+index	.\libretro.h	/^   unsigned index;$/;"	m	struct:retro_input_descriptor
+init	.\gl\Render.cpp	/^	void init() {$/;"	f	class:Render
+initialized	.\libretro.h	/^   retro_camera_lifetime_status_t initialized;$/;"	m	struct:retro_camera_callback
+initialized	.\libretro.h	/^   retro_location_lifetime_status_t initialized;$/;"	m	struct:retro_location_callback
+input_poll_cb	.\FlipRetro.h	/^retro_input_poll_t input_poll_cb = NULL;$/;"	v
+input_state_cb	.\FlipRetro.h	/^retro_input_state_t input_state_cb = NULL;$/;"	v
+key	.\libretro.h	/^   const char *key;$/;"	m	struct:retro_variable
+len	.\libretro.h	/^   size_t len;$/;"	m	struct:retro_memory_descriptor
+library_name	.\libretro.h	/^   const char *library_name;      \/* Descriptive name of library. Should not $/;"	m	struct:retro_system_info
+library_version	.\libretro.h	/^   const char *library_version;   \/* Descriptive version of core. *\/$/;"	m	struct:retro_system_info
+log	.\libretro.h	/^   retro_log_printf_t log;$/;"	m	struct:retro_log_callback
+max_height	.\libretro.h	/^   unsigned max_height;    \/* Maximum possible height of game. *\/$/;"	m	struct:retro_game_geometry
+max_width	.\libretro.h	/^   unsigned max_width;     \/* Maximum possible width of game. *\/$/;"	m	struct:retro_game_geometry
+memory	.\libretro.h	/^   const struct retro_subsystem_memory_info *memory;$/;"	m	struct:retro_subsystem_rom_info	typeref:struct:retro_subsystem_rom_info::retro_subsystem_memory_info
+meta	.\libretro.h	/^   const char *meta;       \/* String of implementation specific meta-data. *\/$/;"	m	struct:retro_game_info
+msg	.\libretro.h	/^   const char *msg;        \/* Message to be displayed. *\/$/;"	m	struct:retro_message
+need_fullpath	.\libretro.h	/^   bool        need_fullpath;                                       $/;"	m	struct:retro_system_info
+need_fullpath	.\libretro.h	/^   bool need_fullpath;$/;"	m	struct:retro_subsystem_rom_info
+num_descriptors	.\libretro.h	/^   unsigned num_descriptors;$/;"	m	struct:retro_memory_map
+num_memory	.\libretro.h	/^   unsigned num_memory;$/;"	m	struct:retro_subsystem_rom_info
+num_roms	.\libretro.h	/^   unsigned num_roms;$/;"	m	struct:retro_subsystem_info
+num_types	.\libretro.h	/^   unsigned num_types;$/;"	m	struct:retro_controller_info
+offset	.\libretro.h	/^   size_t offset;$/;"	m	struct:retro_memory_descriptor
+path	.\libretro.h	/^   const char *path;       \/* Path to game, UTF-8 encoded.$/;"	m	struct:retro_game_info
+perf_log	.\libretro.h	/^   retro_perf_log_t              perf_log;$/;"	m	struct:retro_perf_callback
+perf_register	.\libretro.h	/^   retro_perf_register_t         perf_register;$/;"	m	struct:retro_perf_callback
+perf_start	.\libretro.h	/^   retro_perf_start_t            perf_start;$/;"	m	struct:retro_perf_callback
+perf_stop	.\libretro.h	/^   retro_perf_stop_t             perf_stop;$/;"	m	struct:retro_perf_callback
+port	.\libretro.h	/^   unsigned port;$/;"	m	struct:retro_input_descriptor
+ptr	.\libretro.h	/^   void *ptr;$/;"	m	struct:retro_memory_descriptor
+reference	.\libretro.h	/^   retro_usec_t reference;$/;"	m	struct:retro_frame_time_callback
+registered	.\libretro.h	/^   bool registered;$/;"	m	struct:retro_perf_counter
+render	.\FlipRetro.cpp	/^Render render;$/;"	v
+render	.\gl\Render.cpp	/^	void render() {$/;"	f	class:Render
+replace_image_index	.\libretro.h	/^   retro_replace_image_index_t replace_image_index;$/;"	m	struct:retro_disk_control_callback
+required	.\libretro.h	/^   bool required;$/;"	m	struct:retro_subsystem_rom_info
+retro_add_image_index_t	.\libretro.h	/^typedef bool (*retro_add_image_index_t)(void);$/;"	t
+retro_api_version	.\FlipRetro.h	/^unsigned retro_api_version(void) { return RETRO_API_VERSION; }$/;"	f
+retro_audio_callback	.\libretro.h	/^struct retro_audio_callback$/;"	s
+retro_audio_callback_t	.\libretro.h	/^typedef void (*retro_audio_callback_t)(void);$/;"	t
+retro_audio_sample_batch_t	.\libretro.h	/^typedef size_t (*retro_audio_sample_batch_t)(const int16_t *data,$/;"	t
+retro_audio_sample_t	.\libretro.h	/^typedef void (*retro_audio_sample_t)(int16_t left, int16_t right);$/;"	t
+retro_audio_set_state_callback_t	.\libretro.h	/^typedef void (*retro_audio_set_state_callback_t)(bool enabled);$/;"	t
+retro_camera_buffer	.\libretro.h	/^enum retro_camera_buffer$/;"	g
+retro_camera_callback	.\libretro.h	/^struct retro_camera_callback$/;"	s
+retro_camera_frame_opengl_texture_t	.\libretro.h	/^typedef void (*retro_camera_frame_opengl_texture_t)(unsigned texture_id, $/;"	t
+retro_camera_frame_raw_framebuffer_t	.\libretro.h	/^typedef void (*retro_camera_frame_raw_framebuffer_t)(const uint32_t *buffer, $/;"	t
+retro_camera_lifetime_status_t	.\libretro.h	/^typedef void (*retro_camera_lifetime_status_t)(void);$/;"	t
+retro_camera_start_t	.\libretro.h	/^typedef bool (*retro_camera_start_t)(void);$/;"	t
+retro_camera_stop_t	.\libretro.h	/^typedef void (*retro_camera_stop_t)(void);$/;"	t
+retro_cheat_reset	.\FlipRetro.h	/^void retro_cheat_reset(void) {}$/;"	f
+retro_cheat_set	.\FlipRetro.h	/^void retro_cheat_set(unsigned index, bool enabled, const char* code) {}$/;"	f
+retro_controller_description	.\libretro.h	/^struct retro_controller_description$/;"	s
+retro_controller_info	.\libretro.h	/^struct retro_controller_info$/;"	s
+retro_deinit	.\FlipRetro.cpp	/^void retro_deinit(void) {}$/;"	f
+retro_disk_control_callback	.\libretro.h	/^struct retro_disk_control_callback$/;"	s
+retro_environment_t	.\libretro.h	/^typedef bool (*retro_environment_t)(unsigned cmd, void *data);$/;"	t
+retro_frame_time_callback	.\libretro.h	/^struct retro_frame_time_callback$/;"	s
+retro_frame_time_callback_t	.\libretro.h	/^typedef void (*retro_frame_time_callback_t)(retro_usec_t usec);$/;"	t
+retro_game_geometry	.\libretro.h	/^struct retro_game_geometry$/;"	s
+retro_game_info	.\libretro.h	/^struct retro_game_info$/;"	s
+retro_get_cpu_features_t	.\libretro.h	/^typedef uint64_t (*retro_get_cpu_features_t)(void);$/;"	t
+retro_get_eject_state_t	.\libretro.h	/^typedef bool (*retro_get_eject_state_t)(void);$/;"	t
+retro_get_image_index_t	.\libretro.h	/^typedef unsigned (*retro_get_image_index_t)(void);$/;"	t
+retro_get_memory_data	.\FlipRetro.h	/^void* retro_get_memory_data(unsigned id) { return NULL; }$/;"	f
+retro_get_memory_size	.\FlipRetro.h	/^size_t retro_get_memory_size(unsigned id) { return 0; }$/;"	f
+retro_get_num_images_t	.\libretro.h	/^typedef unsigned (*retro_get_num_images_t)(void);$/;"	t
+retro_get_proc_address_interface	.\libretro.h	/^struct retro_get_proc_address_interface$/;"	s
+retro_get_proc_address_t	.\libretro.h	/^typedef retro_proc_address_t (*retro_get_proc_address_t)(const char *sym);$/;"	t
+retro_get_region	.\FlipRetro.h	/^unsigned retro_get_region(void) { return RETRO_REGION_NTSC; }$/;"	f
+retro_get_system_av_info	.\FlipRetro.cpp	/^void retro_get_system_av_info(struct retro_system_av_info* info) {$/;"	f
+retro_get_system_info	.\FlipRetro.cpp	/^void retro_get_system_info(struct retro_system_info *info) {$/;"	f
+retro_hw_context_reset_t	.\libretro.h	/^typedef void (*retro_hw_context_reset_t)(void);$/;"	t
+retro_hw_context_type	.\libretro.h	/^enum retro_hw_context_type$/;"	g
+retro_hw_get_current_framebuffer_t	.\libretro.h	/^typedef uintptr_t (*retro_hw_get_current_framebuffer_t)(void);$/;"	t
+retro_hw_get_proc_address_t	.\libretro.h	/^typedef retro_proc_address_t (*retro_hw_get_proc_address_t)(const char *sym);$/;"	t
+retro_hw_render_callback	.\libretro.h	/^struct retro_hw_render_callback$/;"	s
+retro_init	.\FlipRetro.cpp	/^void retro_init(void) {$/;"	f
+retro_input_descriptor	.\libretro.h	/^struct retro_input_descriptor$/;"	s
+retro_input_poll_t	.\libretro.h	/^typedef void (*retro_input_poll_t)(void);$/;"	t
+retro_input_state_t	.\libretro.h	/^typedef int16_t (*retro_input_state_t)(unsigned port, unsigned device, $/;"	t
+retro_key	.\libretro.h	/^enum retro_key$/;"	g
+retro_keyboard_callback	.\libretro.h	/^struct retro_keyboard_callback$/;"	s
+retro_keyboard_event_t	.\libretro.h	/^typedef void (*retro_keyboard_event_t)(bool down, unsigned keycode, $/;"	t
+retro_language	.\libretro.h	/^enum retro_language$/;"	g
+retro_load_game	.\FlipRetro.h	/^bool retro_load_game(const struct retro_game_info* game) { return true; }$/;"	f
+retro_load_game_special	.\FlipRetro.h	/^bool retro_load_game_special(unsigned game_type, const struct retro_game_info* info, size_t num_info) { return false; }$/;"	f
+retro_location_callback	.\libretro.h	/^struct retro_location_callback$/;"	s
+retro_location_get_position_t	.\libretro.h	/^typedef bool (*retro_location_get_position_t)(double *lat, double *lon,$/;"	t
+retro_location_lifetime_status_t	.\libretro.h	/^typedef void (*retro_location_lifetime_status_t)(void);$/;"	t
+retro_location_set_interval_t	.\libretro.h	/^typedef void (*retro_location_set_interval_t)(unsigned interval_ms,$/;"	t
+retro_location_start_t	.\libretro.h	/^typedef bool (*retro_location_start_t)(void);$/;"	t
+retro_location_stop_t	.\libretro.h	/^typedef void (*retro_location_stop_t)(void);$/;"	t
+retro_log_callback	.\libretro.h	/^struct retro_log_callback$/;"	s
+retro_log_level	.\libretro.h	/^enum retro_log_level$/;"	g
+retro_log_printf_t	.\libretro.h	/^typedef void (*retro_log_printf_t)(enum retro_log_level level,$/;"	t
+retro_memory_descriptor	.\libretro.h	/^struct retro_memory_descriptor$/;"	s
+retro_memory_map	.\libretro.h	/^struct retro_memory_map$/;"	s
+retro_message	.\libretro.h	/^struct retro_message$/;"	s
+retro_mod	.\libretro.h	/^enum retro_mod$/;"	g
+retro_perf_callback	.\libretro.h	/^struct retro_perf_callback$/;"	s
+retro_perf_counter	.\libretro.h	/^struct retro_perf_counter$/;"	s
+retro_perf_get_counter_t	.\libretro.h	/^typedef retro_perf_tick_t (*retro_perf_get_counter_t)(void);$/;"	t
+retro_perf_get_time_usec_t	.\libretro.h	/^typedef retro_time_t (*retro_perf_get_time_usec_t)(void);$/;"	t
+retro_perf_log_t	.\libretro.h	/^typedef void (*retro_perf_log_t)(void);$/;"	t
+retro_perf_register_t	.\libretro.h	/^typedef void (*retro_perf_register_t)(struct retro_perf_counter *counter);$/;"	t
+retro_perf_start_t	.\libretro.h	/^typedef void (*retro_perf_start_t)(struct retro_perf_counter *counter);$/;"	t
+retro_perf_stop_t	.\libretro.h	/^typedef void (*retro_perf_stop_t)(struct retro_perf_counter *counter);$/;"	t
+retro_perf_tick_t	.\libretro.h	/^typedef uint64_t retro_perf_tick_t;$/;"	t
+retro_pixel_format	.\libretro.h	/^enum retro_pixel_format$/;"	g
+retro_proc_address_t	.\libretro.h	/^typedef void (*retro_proc_address_t)(void);$/;"	t
+retro_replace_image_index_t	.\libretro.h	/^typedef bool (*retro_replace_image_index_t)(unsigned index,$/;"	t
+retro_reset	.\FlipRetro.cpp	/^void retro_reset(void) {}$/;"	f
+retro_rumble_effect	.\libretro.h	/^enum retro_rumble_effect$/;"	g
+retro_rumble_interface	.\libretro.h	/^struct retro_rumble_interface$/;"	s
+retro_run	.\FlipRetro.cpp	/^void retro_run(void) {$/;"	f
+retro_sensor_action	.\libretro.h	/^enum retro_sensor_action$/;"	g
+retro_sensor_get_input_t	.\libretro.h	/^typedef float (*retro_sensor_get_input_t)(unsigned port, unsigned id);$/;"	t
+retro_sensor_interface	.\libretro.h	/^struct retro_sensor_interface$/;"	s
+retro_serialize	.\FlipRetro.cpp	/^bool retro_serialize(void* data, size_t size) { return false; }$/;"	f
+retro_serialize_size	.\FlipRetro.cpp	/^size_t retro_serialize_size(void) { return 0; }$/;"	f
+retro_set_audio_sample	.\FlipRetro.h	/^void retro_set_audio_sample(retro_audio_sample_t cb) { audio_cb = cb; }$/;"	f
+retro_set_audio_sample_batch	.\FlipRetro.h	/^void retro_set_audio_sample_batch(retro_audio_sample_batch_t cb) { audio_batch_cb = cb; }$/;"	f
+retro_set_controller_port_device	.\FlipRetro.h	/^void retro_set_controller_port_device(unsigned port, unsigned device) {}$/;"	f
+retro_set_eject_state_t	.\libretro.h	/^typedef bool (*retro_set_eject_state_t)(bool ejected);$/;"	t
+retro_set_environment	.\FlipRetro.cpp	/^void retro_set_environment(retro_environment_t cb) {$/;"	f
+retro_set_image_index_t	.\libretro.h	/^typedef bool (*retro_set_image_index_t)(unsigned index);$/;"	t
+retro_set_input_poll	.\FlipRetro.h	/^void retro_set_input_poll(retro_input_poll_t cb) { input_poll_cb = cb; }$/;"	f
+retro_set_input_state	.\FlipRetro.h	/^void retro_set_input_state(retro_input_state_t cb) { input_state_cb = cb; }$/;"	f
+retro_set_rumble_state_t	.\libretro.h	/^typedef bool (*retro_set_rumble_state_t)(unsigned port, $/;"	t
+retro_set_sensor_state_t	.\libretro.h	/^typedef bool (*retro_set_sensor_state_t)(unsigned port, $/;"	t
+retro_set_video_refresh	.\FlipRetro.h	/^void retro_set_video_refresh(retro_video_refresh_t cb) { video_cb = cb; }$/;"	f
+retro_subsystem_info	.\libretro.h	/^struct retro_subsystem_info$/;"	s
+retro_subsystem_memory_info	.\libretro.h	/^struct retro_subsystem_memory_info$/;"	s
+retro_subsystem_rom_info	.\libretro.h	/^struct retro_subsystem_rom_info$/;"	s
+retro_system_av_info	.\libretro.h	/^struct retro_system_av_info$/;"	s
+retro_system_info	.\libretro.h	/^struct retro_system_info$/;"	s
+retro_system_timing	.\libretro.h	/^struct retro_system_timing$/;"	s
+retro_time_t	.\libretro.h	/^typedef int64_t retro_time_t;$/;"	t
+retro_unload_game	.\FlipRetro.h	/^void retro_unload_game(void) {}$/;"	f
+retro_unserialize	.\FlipRetro.cpp	/^bool retro_unserialize(const void* data, size_t size) { return false; }$/;"	f
+retro_usec_t	.\libretro.h	/^typedef int64_t retro_usec_t;$/;"	t
+retro_variable	.\libretro.h	/^struct retro_variable$/;"	s
+retro_video_refresh_t	.\libretro.h	/^typedef void (*retro_video_refresh_t)(const void *data, unsigned width,$/;"	t
+roms	.\libretro.h	/^   const struct retro_subsystem_rom_info *roms;$/;"	m	struct:retro_subsystem_info	typeref:struct:retro_subsystem_info::retro_subsystem_rom_info
+sample_rate	.\libretro.h	/^   double sample_rate;     \/* Sampling rate of audio. *\/$/;"	m	struct:retro_system_timing
+select	.\libretro.h	/^   size_t select;$/;"	m	struct:retro_memory_descriptor
+set_eject_state	.\libretro.h	/^   retro_set_eject_state_t set_eject_state;$/;"	m	struct:retro_disk_control_callback
+set_image_index	.\libretro.h	/^   retro_set_image_index_t set_image_index;$/;"	m	struct:retro_disk_control_callback
+set_interval	.\libretro.h	/^   retro_location_set_interval_t  set_interval;$/;"	m	struct:retro_location_callback
+set_rumble_state	.\libretro.h	/^   retro_set_rumble_state_t set_rumble_state;$/;"	m	struct:retro_rumble_interface
+set_sensor_state	.\libretro.h	/^   retro_set_sensor_state_t set_sensor_state;$/;"	m	struct:retro_sensor_interface
+set_state	.\libretro.h	/^   retro_audio_set_state_callback_t set_state;$/;"	m	struct:retro_audio_callback
+size	.\libretro.h	/^   size_t      size;       \/* Size of memory buffer. *\/$/;"	m	struct:retro_game_info
+start	.\libretro.h	/^   retro_camera_start_t start; \/* Set by frontend. *\/$/;"	m	struct:retro_camera_callback
+start	.\libretro.h	/^   retro_location_start_t         start;$/;"	m	struct:retro_location_callback
+start	.\libretro.h	/^   retro_perf_tick_t start;$/;"	m	struct:retro_perf_counter
+start	.\libretro.h	/^   size_t start;$/;"	m	struct:retro_memory_descriptor
+stencil	.\libretro.h	/^   bool stencil;$/;"	m	struct:retro_hw_render_callback
+stop	.\libretro.h	/^   retro_camera_stop_t stop; \/* Set by frontend. *\/$/;"	m	struct:retro_camera_callback
+stop	.\libretro.h	/^   retro_location_stop_t          stop;$/;"	m	struct:retro_location_callback
+timing	.\libretro.h	/^   struct retro_system_timing timing;$/;"	m	struct:retro_system_av_info	typeref:struct:retro_system_av_info::retro_system_timing
+total	.\libretro.h	/^   retro_perf_tick_t total;$/;"	m	struct:retro_perf_counter
+true	.\libretro.h	39;"	d
+type	.\libretro.h	/^   unsigned type;$/;"	m	struct:retro_subsystem_memory_info
+types	.\libretro.h	/^   const struct retro_controller_description *types;$/;"	m	struct:retro_controller_info	typeref:struct:retro_controller_info::retro_controller_description
+valid_extensions	.\libretro.h	/^   const char *valid_extensions;  \/* A string listing probably content $/;"	m	struct:retro_system_info
+valid_extensions	.\libretro.h	/^   const char *valid_extensions;$/;"	m	struct:retro_subsystem_rom_info
+value	.\libretro.h	/^   const char *value;$/;"	m	struct:retro_variable
+version_major	.\libretro.h	/^   unsigned version_major;$/;"	m	struct:retro_hw_render_callback
+version_minor	.\libretro.h	/^   unsigned version_minor;$/;"	m	struct:retro_hw_render_callback
+video_cb	.\FlipRetro.h	/^retro_video_refresh_t video_cb = NULL;$/;"	v
+width	.\libretro.h	/^   unsigned width; \/* Desired resolution for camera. Is only used as a hint. *\/$/;"	m	struct:retro_camera_callback
